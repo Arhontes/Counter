@@ -3,7 +3,7 @@
 
     justify-content:space-between;
     align-items: center;
-    background-color:indigo;
+    background-color:cadetblue;
     max-width: 300px;
     max-height: 300px;
     border: 2px solid darkgoldenrod;
@@ -21,7 +21,7 @@
     min-height: 200px;
     margin: 5px;
     border-radius: 5px;
-    border: 2px solid darkgoldenrod;
+    border: 2px solid black;
 }
 .count{
     font-weight: bold;
@@ -33,7 +33,7 @@
     justify-content: space-around;
     align-items: center;
     min-height: 50px;
-    border: 2px solid darkgoldenrod;
+    border: 2px solid black;
 
     margin: 5px;
     border-radius: 5px;
