@@ -1,0 +1,43 @@
+
+.counter{
+
+    justify-content:space-between;
+    align-items: center;
+    background-color:indigo;
+    max-width: 300px;
+    max-height: 300px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.display{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    min-height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid darkgoldenrod;
+}
+.count{
+    font-weight: bold;
+    color: gold;
+    margin: 0 auto;
+ }
+.inputArea{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+    border: 2px solid darkgoldenrod;
+
+    margin: 5px;
+    border-radius: 5px;
+}
+.limit{
+    color: red;
+}
