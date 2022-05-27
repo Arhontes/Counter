@@ -1,0 +1,53 @@
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:cadetblue;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+
+}
+.inputZone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    min-height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.setZone{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.description{
+    padding: 5px;
+}
+.setZone input{
+    text-align:end;
+}
+.setButton{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2px 5px 40px 5px;
+}
+.setButton button{
+    min-height: 30px;
+    min-width: 60px;
+    background-color: gold;
+    border-radius: 5px;
+}
+.activator{
+    background-color: cadetblue;
+}
