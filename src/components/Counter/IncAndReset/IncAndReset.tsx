@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "../Counter/counter.module.css";
-import UniversalButton from "../Button/UniversalButton";
+import UniversalButton from "../../Button/UniversalButton";
 
 type IncAndResetPropsType = {
     value:number

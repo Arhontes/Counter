@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Counter from './components/Counter/Counter';
+import Counter from './components/Counter/Counter/Counter';
 import reportWebVitals from './reportWebVitals';
+import Settings from "./components/Settings/Settings";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Counter />
+      <Counter />
+      <Settings />
   </React.StrictMode>
 );
 
