@@ -4,15 +4,15 @@ import './index.css';
 import Counter from './components/Counter/Counter/Counter';
 import reportWebVitals from './reportWebVitals';
 import Settings from "./components/Settings/Settings";
+import CounterAndSettings from "./CounterAndSettings";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-      <Counter />
-      <Settings />
-  </React.StrictMode>
+
+      <CounterAndSettings />
+
 );
 
 // If you want to start measuring performance in your app, pass a function
