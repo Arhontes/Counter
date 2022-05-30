@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Counter from './components/Counter/Counter/Counter';
 import reportWebVitals from './reportWebVitals';
-import Settings from "./components/Settings/Settings";
-import CounterAndSettings from "./CounterAndSettings";
+import CounterOrSettings from "./CounterOrSettings";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+  document.getElementById('root') as HTMLElement);
 root.render(
-
-      <CounterAndSettings />
-
+      <CounterOrSettings />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+
 reportWebVitals();
