@@ -26,9 +26,6 @@ function CounterAndSettings() {
     },[value])
 
 
-
-
-
     const incHandler = () => {
         if (value < maxValue) {
             setValue(value+1)

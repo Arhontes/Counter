@@ -12,7 +12,14 @@ function Display(props:DisplayPropsType) {
     const displayStyle = `${s.count} ${overLimit && s.limit}`
     return (
         <div className={s.display}>
-            <div className={displayStyle}>{overLimit?`The limit has been reached`:props.value} </div>
+            {overLimit
+                ?<>
+                    <div className = {displayStyle}>The limit has been reached</div>
+                    <div className = {displayStyle}>{props.maxValue}</div>
+                </>
+                :
+                <div className={displayStyle}>{props.value}</div>
+            }
         </div>
     );
 }

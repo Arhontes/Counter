@@ -8,9 +8,11 @@ type IncAndResetPropsType = {
     minValue:number
     incHandler:()=>void
     resetValue: (value:number)=>void
+
 }
 
 function IncAndReset(props:IncAndResetPropsType) {
+
     return (
         <div className={s.inputArea}>
             <UniversalButton disabled={props.value === props.maxValue} onClick={props.incHandler}

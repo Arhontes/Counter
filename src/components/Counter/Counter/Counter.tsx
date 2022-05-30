@@ -14,13 +14,12 @@ type CounterPropsType ={
 
 function Counter(props:CounterPropsType) {
 
-
-
+    const configuredValue = props.currentValue>props.maxValue?props.maxValue:props.currentValue
     return (
         <div className={s.counter}>
             <Display maxValue={props.maxValue} value={props.currentValue}/>
 
-            <IncAndReset value={props.currentValue}
+            <IncAndReset value={configuredValue}
                          maxValue={props.maxValue}
                          minValue={props.minValue}
                          incHandler={props.incHandler}
